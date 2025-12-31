@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Signup.css";
 
 function Login() {
@@ -10,7 +11,9 @@ function Login() {
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
           <button>Login</button>
-          <p> Don't have an account?{" "} <span className="link">Sign up</span> </p> {/* Span forces inline */}
+          {/* Span forces inline */}
+          {/* Links the signup link to the /signup page*/}
+          <p> Don't have an account?{" "} <Link to="/signup" className="link">Sign up</Link> </p>
         </div>
       </div>
     </>
