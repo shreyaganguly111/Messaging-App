@@ -1,18 +1,20 @@
 import "./Signup.css";
 
-function Signup() {
+function Login() {
   return (
     <>
       <div className="signup-box">
-        <h1>Create Account</h1>
+        <h1>Messaging App</h1>
+
         <div className="container">
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
-          <button>Sign Up</button>
+          <button>Login</button>
+          <p> Don't have an account?{" "} <span className="link">Sign up</span> </p> {/* Span forces inline */}
         </div>
       </div>
     </>
   );
 }
 
-export default Signup;
+export default Login;
