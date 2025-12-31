@@ -1,0 +1,67 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Signup Box */
+.signup-box {
+  border: 2px solid #b3daff;
+  border-radius: 30px;                  /* Rounded Corners */
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Signup Box Header*/
+.signup-box h1 {
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Courier;
+}
+
+/* Username Password and Signup Containers */
+.container {
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Username Password and Signup Font  */
+.container input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px;
+  font-size: 16px;
+  height: 40px;
+  box-sizing: border-box;
+  font-family: Courier;
+  border: 1.5px solid lightblue;
+  border-radius: 16px;
+}
+
+/* Signup Button */
+.container button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 15px;
+  font-family: Courier; 
+}
+
+/* Signup Button Hover Color */
+.container button:hover {
+  background-color: rgb(54, 149, 221);
+}
